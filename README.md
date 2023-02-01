@@ -4,7 +4,11 @@
 
 ## Documentation
 
+This component uses the singleton pattern, always returning the same instance of the PDO object, ensuring that there are no two instances of the same object.
+
 ##### Class User
+
+We exemplify the use of connect in the user class
 
 ```php
 <?php
